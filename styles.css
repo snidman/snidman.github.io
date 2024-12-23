@@ -1,6 +1,9 @@
+html {
+    background-color: blue;
+}
+
 body {
     color: blue;
-    background-color: blue;
 }
 
 header {

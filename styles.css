@@ -62,9 +62,9 @@ h1 {
 
 .title-container {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
     margin-left: 220px;
     position: fixed;
     top: 0;

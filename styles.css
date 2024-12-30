@@ -87,8 +87,6 @@ div {
 }
 
 h1 {
-    position: absolute;
-    top: 0;
     left: 50%;
     transform: translateX(-50%);
     margin: 0;
@@ -98,4 +96,15 @@ h1 {
     width: 100%;
     text-align: center;
     z-index: 1;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-container {
+    margin-top: 20px;
 }

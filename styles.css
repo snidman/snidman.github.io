@@ -85,3 +85,17 @@ div {
         padding: 10px;
     }
 }
+
+h1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}

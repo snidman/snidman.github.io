@@ -14,9 +14,9 @@ div {
     border: 1px solid #ddd;
     width: 200px;
     position: fixed;
-    left: 0;
     top: 0;
-    height: 100%;
+    left: 0;
+    height: auto;
 }
 
 .menu {
@@ -24,6 +24,9 @@ div {
     padding: 0;
     margin: 0;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .menu li {
@@ -44,6 +47,9 @@ div {
 
 .submenu {
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
 }
 
 .menu li:hover .submenu {

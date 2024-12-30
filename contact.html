@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hello World</title>
+    <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <div class="title-container">
-        <h1>Hello World</h1>
+        <h1>Contact Us</h1>
     </div>
     <div class="content-container">
         <div class="menu-container">
@@ -29,6 +29,26 @@
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+        </div>
+        <div class="contact-content">
+            <h2>Contact Information</h2>
+            <p>If you have any questions or inquiries, please feel free to contact us using the information below:</p>
+            <h3>Email</h3>
+            <p>info@ourcompany.com</p>
+            <h3>Phone</h3>
+            <p>(123) 456-7890</p>
+            <h3>Address</h3>
+            <p>123 Main Street, Anytown, USA</p>
+            <h2>Contact Form</h2>
+            <form action="submit_contact_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
         </div>
     </div>
     <script src="script.js"></script>

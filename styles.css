@@ -13,6 +13,10 @@ div {
     background-color: #f8f8f8;
     border: 1px solid #ddd;
     width: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
 }
 
 .menu {
@@ -54,6 +58,14 @@ div {
 
 .menu.hidden {
     display: none;
+}
+
+.submenu {
+    display: none;
+}
+
+.menu li:hover .submenu {
+    display: block;
 }
 
 @media (max-width: 768px) {

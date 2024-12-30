@@ -87,8 +87,6 @@ div {
 }
 
 h1 {
-    left: 50%;
-    transform: translateX(-50%);
     margin: 0;
     padding: 10px;
     background-color: #f8f8f8;
@@ -104,8 +102,12 @@ h1 {
     align-items: center;
     height: 100vh;
     margin-left: 220px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .content-container {
-    margin-top: 20px;
+    margin-top: 60px;
 }

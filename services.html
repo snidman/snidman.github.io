@@ -47,7 +47,11 @@
                 <button id="sendEmailButton">Send Email</button>
             </div>
             <div>
-                <button id="combinationsButton">Combinations</button>
+                <button id="combinationsAmountButton">Amount of Combinations</button>
+                <div id="combinationsResult"></div>
+            </div>
+            <div>
+                <button id="combinationsListButton">Combinations List</button>
                 <div id="combinationsResult"></div>
             </div>
         </div>
@@ -88,7 +92,7 @@
             });
         });
 
-        document.getElementById("combinationsButton").addEventListener("click", function() {
+        document.getElementById("combinationsListButton").addEventListener("click", function() {
             var number1 = parseInt(document.getElementById("number1").value);
             var number2 = parseInt(document.getElementById("number2").value);
             var combinations = [];

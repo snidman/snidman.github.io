@@ -88,3 +88,35 @@ h1 {
     font-size: 14px;
     color: #666;
 }
+
+h2 {
+    margin: 0;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    margin-left: 110px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content-container {
+    margin-top: 60px;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}

@@ -91,11 +91,15 @@
         document.getElementById("combinationsButton").addEventListener("click", function() {
             var number1 = parseInt(document.getElementById("number1").value);
             var number2 = parseInt(document.getElementById("number2").value);
-            function factorial(n) {
-                return n ? n * factorial(n - 1) : 1;
+            var combinations = [];
+
+            for (var i = 1; i <= number1; i++) {
+                for (var j = i + 1; j <= number2; j++) {
+                    combinations.push(i + "" + j);
+                }
             }
-            var combinations = factorial(number1) / (factorial(number2) * factorial(number1 - number2));
-            document.getElementById("combinationsResult").innerText = "Combinations: " + combinations;
+
+            document.getElementById("combinationsResult").innerText = "Combinations: " + combinations.join(", ");
         });
     </script>
 </body>

@@ -125,3 +125,42 @@ button:hover {
     font-size: 18px;
     color: #333;
 }
+
+/* Pb4f1 */
+#combinationsButton {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#combinationsButton:hover {
+    background-color: #45a049;
+}
+
+#combinationsResult {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* P3a8a */
+input[type="email"] {
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

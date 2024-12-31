@@ -90,12 +90,11 @@
 
         document.getElementById("combinationsButton").addEventListener("click", function() {
             var number1 = parseInt(document.getElementById("number1").value);
-
+            var number2 = parseInt(document.getElementById("number2").value);
             function factorial(n) {
                 return n ? n * factorial(n - 1) : 1;
             }
-
-            var combinations = factorial(number1) / factorial(number1 - 1);
+            var combinations = factorial(number1) / (factorial(number2) * factorial(number1 - number2));
             document.getElementById("combinationsResult").innerText = "Combinations: " + combinations;
         });
     </script>

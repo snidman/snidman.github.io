@@ -82,3 +82,9 @@ h1 {
 .content-container {
     margin-top: 60px;
 }
+
+.description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}

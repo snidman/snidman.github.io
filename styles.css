@@ -10,7 +10,6 @@ div {
     flex-direction: column;
     align-items: flex-start;
     padding: 10px;
-    background-color: #f8f8f8;
     border: 1px solid #ddd;
     width: 200px;
     position: fixed;
@@ -42,7 +41,6 @@ div {
 }
 
 .menu a:hover {
-    background-color: #ddd;
 }
 
 .submenu {
@@ -60,7 +58,6 @@ div {
 h1 {
     margin: 0;
     padding: 10px;
-    background-color: #f8f8f8;
     border-bottom: 1px solid #ddd;
     width: 100%;
     text-align: center;
@@ -167,5 +164,4 @@ textarea {
 
 /* Pd5f7 */
 body {
-    background-color: blue;
 }
